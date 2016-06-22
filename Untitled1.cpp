@@ -26,7 +26,11 @@
  * either License.
  */
 
-
+#include "libfreenect.h"
+#include "libfreenect_sync.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 #ifndef _WIN32
   #include <unistd.h>
